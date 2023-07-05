@@ -15,12 +15,16 @@ import {
     ditmawa,
     warmingup,
     asyst,
+    aptikom,
     lets_glow_up,
     glidder,
     ijahit,
     work1,
     work2,
-    work3
+    work3,
+    homeGlidder,
+    jahitin,
+    letsGlowUp
   } from "../assets";
   
   export const navLinks = [
@@ -159,11 +163,21 @@ import {
         "Make the required features according to user requirements"
       ],
     },
+    {
+      title: "Asosiasi Perguruan Tinggi Informatika dan Ilmu Komputer (APTIKOM)",
+      company_name: "Public Relation Division",
+      icon: aptikom,
+      iconBg: "#FFFFFF",
+      date: "Mar 2023 - Now",
+      points: [
+        "Write more than 10 articles on APTIKOM activities, which were uploaded on the website"
+      ],
+    },
   ];
   
   const projects = [
     {
-      projects_image: work1,
+      projects_image: letsGlowUp,
       notes:
         "UI/UX mobile applications beauty consultation and marketplace (Let's Glow Up) by using Figma.",
       name: "Let's Glow Up",
@@ -172,7 +186,7 @@ import {
       image: lets_glow_up,
     },
     {
-      projects_image: work2,
+      projects_image: homeGlidder,
       notes:
         "Create a SuperApp (Glidder) website User Interface using HTML and CSS.",
       name: "Glidder",
@@ -181,7 +195,7 @@ import {
       image: glidder,
     },
     {
-      projects_image: work3,
+      projects_image: jahitin,
       notes:
         "Designing and building a website-based tailor application with using CI framework, PHP, HTML, and CSS.",
       name: "I-Jahit",
@@ -193,16 +207,6 @@ import {
 
   const school = [
     {
-      name: "SMA Telkom Bandung",
-      major: "Science",
-      date: "July 2017 - June 2020",
-      achievement: [
-        "3rd Runner Up of National Scientific Writing Competition “Bakti Formica Bangsa XXI” Universitas Pendidikan Indonesia",
-        "3rd Runner Up of Industrial Green Competition Telkom University 2018",
-        "3rd Runner Up of Industrial Green Competition Telkom University 2017",
-      ]
-    },
-    {
       name: "Telkom University",
       major: "Diploma Information System",
       date: "Sep 2020 - Now",
@@ -212,6 +216,16 @@ import {
         "Participant of Program Kreativitas Mahasiswa (PKM) 2022",
         "Participant of GEMASTIK XIV 2021",
         "Finalist of National Scientific Writing Competition “Gebyar Farmasi 2021” Universitas Andalas"
+      ]
+    },
+    {
+      name: "SMA Telkom Bandung",
+      major: "Science",
+      date: "July 2017 - June 2020",
+      achievement: [
+        "3rd Runner Up of National Scientific Writing Competition “Bakti Formica Bangsa XXI” Universitas Pendidikan Indonesia",
+        "3rd Runner Up of Industrial Green Competition Telkom University 2018",
+        "3rd Runner Up of Industrial Green Competition Telkom University 2017",
       ]
     }
   ];

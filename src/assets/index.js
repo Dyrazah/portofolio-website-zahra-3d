@@ -21,6 +21,7 @@ import ditmawa from "./company/ditmawa.jpeg"
 import pkkmb from "./company/pkkmb.png"
 import warmingup from "./company/warmingup.png"
 import asyst from "./company/asyst.png"
+import aptikom from "./company/aptikom.jpg"
 
 import glidder from "./glidder.png"
 import ijahit from "./ijahit.png"
@@ -29,6 +30,10 @@ import lets_glow_up from "./lets_glow_up.png"
 import work1 from "./work1.jpg"
 import work2 from "./work2.jpg"
 import work3 from "./work3.jpg"
+
+import homeGlidder from "./homeGlidder.png"
+import jahitin from "./jahitin.jpg"
+import letsGlowUp from "./letsGlowUp.png"
 
 import cv from "./cv_zahra_2023.pdf";
 
@@ -54,11 +59,15 @@ export {
   warmingup,
   pkkmb,
   asyst,
+  aptikom,
   cv,
   glidder,
   ijahit,
   lets_glow_up,
   work1,
   work2,
-  work3
+  work3,
+  homeGlidder,
+  jahitin,
+  letsGlowUp
 };
